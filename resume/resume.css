@@ -1,0 +1,183 @@
+/*Main styles*/
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(250, 240, 230);
+}
+
+
+header{
+  text-align:center;
+}
+
+
+
+h1, .drew{
+  font-family: 'Pacifico', cursive;
+background-color: e2e2e2;
+  margin-top: 30px;
+  padding: 3%;
+  font-size:70px;
+  line-height: .5em;
+  font: "IBM Plex Serif";
+  color: #2b6be4;
+}
+h2{
+  color: #635d49;
+}
+
+p{
+  
+  max-width: 47rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: inherit 2rem;
+  font-size: 1.2rem;
+}
+
+p, h3{
+  text-align:center;
+}
+
+ul{
+  list-style-type:none;
+  text-align:center;
+  padding: 0 30px 0 30px;
+}
+
+/*Class styles*/
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center; 
+  font-family:'roboto', sans-serif;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+.nav .name {
+  display: none;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+}
+
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;}
+
+
+
+.tag-name{
+  margin:0;
+}
+
+.tag-location{
+  font-size:1.3em;
+  margin: 0;
+}
+
+.backdrop{
+background: rgba(0,0,0,0.5);
+  padding: 1em;
+  color: white;
+  margin-bottom: 100px
+}
+
+
+.primary-content{
+  max-width: 47rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: inherit 2rem;
+  text-align:left;
+}
+
+
+
+.main-header {
+  padding-top: 70px;
+  height: 450px;
+  
+  background: linear-gradient(black, transparent 50%),
+    linear-gradient(0deg, rgb(250, 240, 230), transparent 10% ),
+    #ffa949 url('../images/orange-e30.jpg') no-repeat;
+  background-position:20% 100%;
+  background-size: cover;
+  background-repeat:repeat;
+}
+
+
+
+
+
+.card{
+  border:solid gold 3px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 40px;
+  background: rgb(250, 250, 240);
+}
+
+.card-title{
+  text-align: center;
+  font-family:'roboto', sans-serif;
+  border: solid black 3px;
+  border-radius:40px;
+  padding: 10px;
+  background: rgb(200, 220, 240);
+}
+
+
+
+/*footer*/
+a{
+  text-decoration:none;
+  color: #2b6be4;
+}
+
+a:hover{
+  color:red;
+} 
+
+/*footer*/
+footer{
+  background: slategrey;
+  list-style-type:none;
+  border: 1em solid slategrey;
+  text-align: center;
+  
+}
+
+.btt{
+padding: 20px;
+  text-decoration: underline;
+}
+
+.noline{
+  display: inline-block;
+  font-style:oblique;
+  font-size: 1.3em;
+  padding: .5em 1em;
+  text-align: center;
+}
+
+
+}
+
